@@ -1,0 +1,311 @@
+relationship_type,source_id,source_name,target_id,target_name,notes
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,,,Root platform
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-100,Evaluate Project Candidate,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-200,Evaluate & Allocate Funding,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-300,Finalize Capital Plan,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-400,Develop Capital Budget,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-500,Develop Project Design,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-600,Manage Solicitation,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-700,Manage Project Construction,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-800,Track Asset Condition,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-900,Perform Preventative Maintenance,Level 1 domain
+Platform to Domain,PLT-001,CIPAce Enterprise Platform,DOM-1000,Manage Work Order,Level 1 domain
+Domain to Capability,DOM-100,Evaluate Project Candidate,CAP-110,Candidate Intake Management,Level 2 capability
+Domain to Capability,DOM-100,Evaluate Project Candidate,CAP-120,Condition Assessment,Level 2 capability
+Domain to Capability,DOM-100,Evaluate Project Candidate,CAP-130,Risk Assessment,Level 2 capability
+Domain to Capability,DOM-100,Evaluate Project Candidate,CAP-140,Project Prioritization,Level 2 capability
+Domain to Capability,DOM-100,Evaluate Project Candidate,CAP-150,Preliminary Cost Estimation,Level 2 capability
+Domain to Capability,DOM-200,Evaluate & Allocate Funding,CAP-210,Funding Source Management,Level 2 capability
+Domain to Capability,DOM-200,Evaluate & Allocate Funding,CAP-220,Funding Eligibility Analysis,Level 2 capability
+Domain to Capability,DOM-200,Evaluate & Allocate Funding,CAP-230,Grant Management,Level 2 capability
+Domain to Capability,DOM-200,Evaluate & Allocate Funding,CAP-240,Cash Flow Forecasting,Level 2 capability
+Domain to Capability,DOM-200,Evaluate & Allocate Funding,CAP-250,Funding Optimization,Level 2 capability
+Domain to Capability,DOM-300,Finalize Capital Plan,CAP-310,Scenario Development,Level 2 capability
+Domain to Capability,DOM-300,Finalize Capital Plan,CAP-320,Portfolio Analysis,Level 2 capability
+Domain to Capability,DOM-300,Finalize Capital Plan,CAP-330,Executive Review,Level 2 capability
+Domain to Capability,DOM-300,Finalize Capital Plan,CAP-340,Approval Workflow,Level 2 capability
+Domain to Capability,DOM-400,Develop Capital Budget,CAP-410,Budget Assembly,Level 2 capability
+Domain to Capability,DOM-400,Develop Capital Budget,CAP-420,Budget Forecasting,Level 2 capability
+Domain to Capability,DOM-400,Develop Capital Budget,CAP-430,Fund Balancing,Level 2 capability
+Domain to Capability,DOM-400,Develop Capital Budget,CAP-440,Budget Publication,Level 2 capability
+Domain to Capability,DOM-400,Develop Capital Budget,CAP-450,Variance Analysis,Level 2 capability
+Domain to Capability,DOM-500,Develop Project Design,CAP-510,Scope Definition,Level 2 capability
+Domain to Capability,DOM-500,Develop Project Design,CAP-520,Design Coordination,Level 2 capability
+Domain to Capability,DOM-500,Develop Project Design,CAP-530,Document Control,Level 2 capability
+Domain to Capability,DOM-500,Develop Project Design,CAP-540,Consultant Management,Level 2 capability
+Domain to Capability,DOM-500,Develop Project Design,CAP-550,Design Review,Level 2 capability
+Domain to Capability,DOM-600,Manage Solicitation,CAP-610,Procurement Planning,Level 2 capability
+Domain to Capability,DOM-600,Manage Solicitation,CAP-620,Bid Administration,Level 2 capability
+Domain to Capability,DOM-600,Manage Solicitation,CAP-630,Vendor Management,Level 2 capability
+Domain to Capability,DOM-600,Manage Solicitation,CAP-640,Evaluation Management,Level 2 capability
+Domain to Capability,DOM-600,Manage Solicitation,CAP-650,Contract Award,Level 2 capability
+Domain to Capability,DOM-700,Manage Project Construction,CAP-710,Schedule Management,Level 2 capability
+Domain to Capability,DOM-700,Manage Project Construction,CAP-720,Cost Management,Level 2 capability
+Domain to Capability,DOM-700,Manage Project Construction,CAP-730,Change Order Management,Level 2 capability
+Domain to Capability,DOM-700,Manage Project Construction,CAP-740,Field Reporting,Level 2 capability
+Domain to Capability,DOM-700,Manage Project Construction,CAP-750,Construction Analytics,Level 2 capability
+Domain to Capability,DOM-800,Track Asset Condition,CAP-810,Asset Inventory,Level 2 capability
+Domain to Capability,DOM-800,Track Asset Condition,CAP-820,Inspection Management,Level 2 capability
+Domain to Capability,DOM-800,Track Asset Condition,CAP-830,Condition Modeling,Level 2 capability
+Domain to Capability,DOM-800,Track Asset Condition,CAP-840,Lifecycle Analysis,Level 2 capability
+Domain to Capability,DOM-800,Track Asset Condition,CAP-850,Asset Analytics,Level 2 capability
+Domain to Capability,DOM-900,Perform Preventative Maintenance,CAP-910,PM Scheduling,Level 2 capability
+Domain to Capability,DOM-900,Perform Preventative Maintenance,CAP-920,Resource Planning,Level 2 capability
+Domain to Capability,DOM-900,Perform Preventative Maintenance,CAP-930,Maintenance Execution,Level 2 capability
+Domain to Capability,DOM-900,Perform Preventative Maintenance,CAP-940,Compliance Tracking,Level 2 capability
+Domain to Capability,DOM-900,Perform Preventative Maintenance,CAP-950,Maintenance Analytics,Level 2 capability
+Domain to Capability,DOM-1000,Manage Work Order,CAP-1010,Work Request Intake,Level 2 capability
+Domain to Capability,DOM-1000,Manage Work Order,CAP-1020,Work Order Planning,Level 2 capability
+Domain to Capability,DOM-1000,Manage Work Order,CAP-1030,Dispatch Management,Level 2 capability
+Domain to Capability,DOM-1000,Manage Work Order,CAP-1040,Labor & Materials Tracking,Level 2 capability
+Domain to Capability,DOM-1000,Manage Work Order,CAP-1050,Service Performance Analytics,Level 2 capability
+Capability to Feature,CAP-110,Candidate Intake Management,FEA-111,Project Submission,Level 3 feature
+Feature to Screen,FEA-111,Project Submission,SCR-111,Candidate Dashboard,Primary screen
+Feature to KPI,FEA-111,Project Submission,KPI-111,Projects Submitted,Primary metric
+Feature to Persona,FEA-111,Project Submission,PER-CAPITAL-PROGRAM-MANAGER,Capital Program Manager,Primary user
+Feature to AI Service,FEA-111,Project Submission,AIS-111,Project Intake Copilot,AI opportunity
+Capability to Feature,CAP-110,Candidate Intake Management,FEA-112,Request Tracking,Level 3 feature
+Feature to Screen,FEA-112,Request Tracking,SCR-112,Candidate Portfolio,Primary screen
+Feature to KPI,FEA-112,Request Tracking,KPI-112,Request Volume,Primary metric
+Feature to Persona,FEA-112,Request Tracking,PER-ASSET-MANAGER,Asset Manager,Primary user
+Feature to AI Service,FEA-112,Request Tracking,AIS-112,Auto Classification,AI opportunity
+Capability to Feature,CAP-120,Condition Assessment,FEA-121,Inspection Collection,Level 3 feature
+Feature to Screen,FEA-121,Inspection Collection,SCR-121,Condition Assessment,Primary screen
+Feature to KPI,FEA-121,Inspection Collection,KPI-121,Assets Assessed,Primary metric
+Feature to Persona,FEA-121,Inspection Collection,PER-ASSET-MANAGER,Asset Manager,Primary user
+Feature to AI Service,FEA-121,Inspection Collection,AIS-121,Photo Analysis,AI opportunity
+Capability to Feature,CAP-130,Risk Assessment,FEA-131,Risk Matrix,Level 3 feature
+Feature to Screen,FEA-131,Risk Matrix,SCR-131,Risk Dashboard,Primary screen
+Feature to KPI,FEA-131,Risk Matrix,KPI-131,Risk Rating,Primary metric
+Feature to Persona,FEA-131,Risk Matrix,PER-PUBLIC-WORKS-DIRECTOR,Public Works Director,Primary user
+Feature to AI Service,FEA-131,Risk Matrix,AIS-131,Risk Scoring,AI opportunity
+Capability to Feature,CAP-140,Project Prioritization,FEA-141,Weighted Ranking,Level 3 feature
+Feature to Screen,FEA-141,Weighted Ranking,SCR-141,Priority Dashboard,Primary screen
+Feature to KPI,FEA-141,Weighted Ranking,KPI-141,Priority Score,Primary metric
+Feature to Persona,FEA-141,Weighted Ranking,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-141,Weighted Ranking,AIS-141,Priority Recommendations,AI opportunity
+Capability to Feature,CAP-150,Preliminary Cost Estimation,FEA-151,Preliminary Estimates,Level 3 feature
+Feature to Screen,FEA-151,Preliminary Estimates,SCR-151,Cost Estimate Screen,Primary screen
+Feature to KPI,FEA-151,Preliminary Estimates,KPI-151,Estimated Cost,Primary metric
+Feature to Persona,FEA-151,Preliminary Estimates,PER-FINANCE-DIRECTOR,Finance Director,Primary user
+Feature to AI Service,FEA-151,Preliminary Estimates,AIS-151,Cost Prediction,AI opportunity
+Capability to Feature,CAP-210,Funding Source Management,FEA-211,Fund Registry,Level 3 feature
+Feature to Screen,FEA-211,Fund Registry,SCR-211,Funding Dashboard,Primary screen
+Feature to KPI,FEA-211,Fund Registry,KPI-211,Fund Utilization,Primary metric
+Feature to Persona,FEA-211,Fund Registry,PER-FINANCE-DIRECTOR,Finance Director,Primary user
+Feature to AI Service,FEA-211,Fund Registry,AIS-211,Funding Match,AI opportunity
+Capability to Feature,CAP-220,Funding Eligibility Analysis,FEA-221,Eligibility Rules,Level 3 feature
+Feature to Screen,FEA-221,Eligibility Rules,SCR-221,Eligibility Matrix,Primary screen
+Feature to KPI,FEA-221,Eligibility Rules,KPI-221,Eligible Projects,Primary metric
+Feature to Persona,FEA-221,Eligibility Rules,PER-GRANT-COORDINATOR,Grant Coordinator,Primary user
+Feature to AI Service,FEA-221,Eligibility Rules,AIS-221,Eligibility Review,AI opportunity
+Capability to Feature,CAP-230,Grant Management,FEA-231,Grant Matching,Level 3 feature
+Feature to Screen,FEA-231,Grant Matching,SCR-231,Grant Workspace,Primary screen
+Feature to KPI,FEA-231,Grant Matching,KPI-231,Grant Capture Rate,Primary metric
+Feature to Persona,FEA-231,Grant Matching,PER-GRANTS-MANAGER,Grants Manager,Primary user
+Feature to AI Service,FEA-231,Grant Matching,AIS-231,Grant Discovery,AI opportunity
+Capability to Feature,CAP-240,Cash Flow Forecasting,FEA-241,Revenue Projection,Level 3 feature
+Feature to Screen,FEA-241,Revenue Projection,SCR-241,Cash Flow Forecast,Primary screen
+Feature to KPI,FEA-241,Revenue Projection,KPI-241,Forecast Accuracy,Primary metric
+Feature to Persona,FEA-241,Revenue Projection,PER-FINANCE-DIRECTOR,Finance Director,Primary user
+Feature to AI Service,FEA-241,Revenue Projection,AIS-241,Forecast Engine,AI opportunity
+Capability to Feature,CAP-250,Funding Optimization,FEA-251,Scenario Modeling,Level 3 feature
+Feature to Screen,FEA-251,Scenario Modeling,SCR-251,Funding Scenarios,Primary screen
+Feature to KPI,FEA-251,Scenario Modeling,KPI-251,Funding Coverage,Primary metric
+Feature to Persona,FEA-251,Scenario Modeling,PER-CITY-MANAGER,City Manager,Primary user
+Feature to AI Service,FEA-251,Scenario Modeling,AIS-251,Funding Optimizer,AI opportunity
+Capability to Feature,CAP-310,Scenario Development,FEA-311,Scenario Builder,Level 3 feature
+Feature to Screen,FEA-311,Scenario Builder,SCR-311,Scenario Workspace,Primary screen
+Feature to KPI,FEA-311,Scenario Builder,KPI-311,Scenario Completion,Primary metric
+Feature to Persona,FEA-311,Scenario Builder,PER-CAPITAL-PLANNER,Capital Planner,Primary user
+Feature to AI Service,FEA-311,Scenario Builder,AIS-311,Scenario Generator,AI opportunity
+Capability to Feature,CAP-320,Portfolio Analysis,FEA-321,Portfolio Ranking,Level 3 feature
+Feature to Screen,FEA-321,Portfolio Ranking,SCR-321,Portfolio Dashboard,Primary screen
+Feature to KPI,FEA-321,Portfolio Ranking,KPI-321,Portfolio Value,Primary metric
+Feature to Persona,FEA-321,Portfolio Ranking,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-321,Portfolio Ranking,AIS-321,Portfolio Optimizer,AI opportunity
+Capability to Feature,CAP-330,Executive Review,FEA-331,Executive Summary,Level 3 feature
+Feature to Screen,FEA-331,Executive Summary,SCR-331,Executive Briefing,Primary screen
+Feature to KPI,FEA-331,Executive Summary,KPI-331,Approval Readiness,Primary metric
+Feature to Persona,FEA-331,Executive Summary,PER-CITY-MANAGER,City Manager,Primary user
+Feature to AI Service,FEA-331,Executive Summary,AIS-331,Summary Generator,AI opportunity
+Capability to Feature,CAP-340,Approval Workflow,FEA-341,Routing,Level 3 feature
+Feature to Screen,FEA-341,Routing,SCR-341,Approval Queue,Primary screen
+Feature to KPI,FEA-341,Routing,KPI-341,Approval Cycle Time,Primary metric
+Feature to Persona,FEA-341,Routing,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-341,Routing,AIS-341,Routing Assistant,AI opportunity
+Capability to Feature,CAP-410,Budget Assembly,FEA-411,Budget Builder,Level 3 feature
+Feature to Screen,FEA-411,Budget Builder,SCR-411,Budget Workspace,Primary screen
+Feature to KPI,FEA-411,Budget Builder,KPI-411,Budget Completion,Primary metric
+Feature to Persona,FEA-411,Budget Builder,PER-BUDGET-OFFICER,Budget Officer,Primary user
+Feature to AI Service,FEA-411,Budget Builder,AIS-411,Budget Assistant,AI opportunity
+Capability to Feature,CAP-420,Budget Forecasting,FEA-421,Forecast Engine,Level 3 feature
+Feature to Screen,FEA-421,Forecast Engine,SCR-421,Forecast Dashboard,Primary screen
+Feature to KPI,FEA-421,Forecast Engine,KPI-421,Forecast Accuracy,Primary metric
+Feature to Persona,FEA-421,Forecast Engine,PER-FINANCE-DIRECTOR,Finance Director,Primary user
+Feature to AI Service,FEA-421,Forecast Engine,AIS-421,Forecast AI,AI opportunity
+Capability to Feature,CAP-430,Fund Balancing,FEA-431,Fund Allocation,Level 3 feature
+Feature to Screen,FEA-431,Fund Allocation,SCR-431,Allocation Matrix,Primary screen
+Feature to KPI,FEA-431,Fund Allocation,KPI-431,Fund Balance,Primary metric
+Feature to Persona,FEA-431,Fund Allocation,PER-FINANCE-TEAM,Finance Team,Primary user
+Feature to AI Service,FEA-431,Fund Allocation,AIS-431,Balancing Engine,AI opportunity
+Capability to Feature,CAP-440,Budget Publication,FEA-441,Budget Reporting,Level 3 feature
+Feature to Screen,FEA-441,Budget Reporting,SCR-441,Published Budget,Primary screen
+Feature to KPI,FEA-441,Budget Reporting,KPI-441,Publication Time,Primary metric
+Feature to Persona,FEA-441,Budget Reporting,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-441,Budget Reporting,AIS-441,Narrative Generation,AI opportunity
+Capability to Feature,CAP-450,Variance Analysis,FEA-451,Variance Tracking,Level 3 feature
+Feature to Screen,FEA-451,Variance Tracking,SCR-451,Variance Dashboard,Primary screen
+Feature to KPI,FEA-451,Variance Tracking,KPI-451,Budget Variance,Primary metric
+Feature to Persona,FEA-451,Variance Tracking,PER-FINANCE-DIRECTOR,Finance Director,Primary user
+Feature to AI Service,FEA-451,Variance Tracking,AIS-451,Variance Insights,AI opportunity
+Capability to Feature,CAP-510,Scope Definition,FEA-511,Scope Registry,Level 3 feature
+Feature to Screen,FEA-511,Scope Registry,SCR-511,Scope Dashboard,Primary screen
+Feature to KPI,FEA-511,Scope Registry,KPI-511,Scope Completeness,Primary metric
+Feature to Persona,FEA-511,Scope Registry,PER-ENGINEERING-MANAGER,Engineering Manager,Primary user
+Feature to AI Service,FEA-511,Scope Registry,AIS-511,Scope Extraction,AI opportunity
+Capability to Feature,CAP-520,Design Coordination,FEA-521,Design Tracking,Level 3 feature
+Feature to Screen,FEA-521,Design Tracking,SCR-521,Design Workspace,Primary screen
+Feature to KPI,FEA-521,Design Tracking,KPI-521,Design Completion,Primary metric
+Feature to Persona,FEA-521,Design Tracking,PER-PROJECT-MANAGER,Project Manager,Primary user
+Feature to AI Service,FEA-521,Design Tracking,AIS-521,Design Assistant,AI opportunity
+Capability to Feature,CAP-530,Document Control,FEA-531,Document Library,Level 3 feature
+Feature to Screen,FEA-531,Document Library,SCR-531,Repository,Primary screen
+Feature to KPI,FEA-531,Document Library,KPI-531,Document Accuracy,Primary metric
+Feature to Persona,FEA-531,Document Library,PER-ENGINEERING-TEAM,Engineering Team,Primary user
+Feature to AI Service,FEA-531,Document Library,AIS-531,Document Classification,AI opportunity
+Capability to Feature,CAP-540,Consultant Management,FEA-541,Consultant Tracking,Level 3 feature
+Feature to Screen,FEA-541,Consultant Tracking,SCR-541,Consultant Dashboard,Primary screen
+Feature to KPI,FEA-541,Consultant Tracking,KPI-541,Consultant Performance,Primary metric
+Feature to Persona,FEA-541,Consultant Tracking,PER-PMO,PMO,Primary user
+Feature to AI Service,FEA-541,Consultant Tracking,AIS-541,Consultant Insights,AI opportunity
+Capability to Feature,CAP-550,Design Review,FEA-551,Review Workflow,Level 3 feature
+Feature to Screen,FEA-551,Review Workflow,SCR-551,Review Center,Primary screen
+Feature to KPI,FEA-551,Review Workflow,KPI-551,Review Cycle Time,Primary metric
+Feature to Persona,FEA-551,Review Workflow,PER-ENGINEERING-DIRECTOR,Engineering Director,Primary user
+Feature to AI Service,FEA-551,Review Workflow,AIS-551,Review Summaries,AI opportunity
+Capability to Feature,CAP-610,Procurement Planning,FEA-611,Procurement Schedule,Level 3 feature
+Feature to Screen,FEA-611,Procurement Schedule,SCR-611,Procurement Dashboard,Primary screen
+Feature to KPI,FEA-611,Procurement Schedule,KPI-611,Procurement Readiness,Primary metric
+Feature to Persona,FEA-611,Procurement Schedule,PER-PROCUREMENT-MANAGER,Procurement Manager,Primary user
+Feature to AI Service,FEA-611,Procurement Schedule,AIS-611,Procurement Planner,AI opportunity
+Capability to Feature,CAP-620,Bid Administration,FEA-621,Bid Tracking,Level 3 feature
+Feature to Screen,FEA-621,Bid Tracking,SCR-621,Bid Management,Primary screen
+Feature to KPI,FEA-621,Bid Tracking,KPI-621,Bid Cycle Time,Primary metric
+Feature to Persona,FEA-621,Bid Tracking,PER-CONTRACT-ADMINISTRATOR,Contract Administrator,Primary user
+Feature to AI Service,FEA-621,Bid Tracking,AIS-621,Bid Analyzer,AI opportunity
+Capability to Feature,CAP-630,Vendor Management,FEA-631,Vendor Registry,Level 3 feature
+Feature to Screen,FEA-631,Vendor Registry,SCR-631,Vendor Workspace,Primary screen
+Feature to KPI,FEA-631,Vendor Registry,KPI-631,Vendor Participation,Primary metric
+Feature to Persona,FEA-631,Vendor Registry,PER-PURCHASING-MANAGER,Purchasing Manager,Primary user
+Feature to AI Service,FEA-631,Vendor Registry,AIS-631,Vendor Insights,AI opportunity
+Capability to Feature,CAP-640,Evaluation Management,FEA-641,Evaluation Matrix,Level 3 feature
+Feature to Screen,FEA-641,Evaluation Matrix,SCR-641,Evaluation Center,Primary screen
+Feature to KPI,FEA-641,Evaluation Matrix,KPI-641,Evaluation Accuracy,Primary metric
+Feature to Persona,FEA-641,Evaluation Matrix,PER-EVALUATION-COMMITTEE,Evaluation Committee,Primary user
+Feature to AI Service,FEA-641,Evaluation Matrix,AIS-641,Proposal Comparison,AI opportunity
+Capability to Feature,CAP-650,Contract Award,FEA-651,Award Tracking,Level 3 feature
+Feature to Screen,FEA-651,Award Tracking,SCR-651,Award Dashboard,Primary screen
+Feature to KPI,FEA-651,Award Tracking,KPI-651,Award Time,Primary metric
+Feature to Persona,FEA-651,Award Tracking,PER-PROCUREMENT-MANAGER,Procurement Manager,Primary user
+Feature to AI Service,FEA-651,Award Tracking,AIS-651,Compliance Review,AI opportunity
+Capability to Feature,CAP-710,Schedule Management,FEA-711,CPM Scheduling,Level 3 feature
+Feature to Screen,FEA-711,CPM Scheduling,SCR-711,Schedule Dashboard,Primary screen
+Feature to KPI,FEA-711,CPM Scheduling,KPI-711,Schedule Performance,Primary metric
+Feature to Persona,FEA-711,CPM Scheduling,PER-CONSTRUCTION-MANAGER,Construction Manager,Primary user
+Feature to AI Service,FEA-711,CPM Scheduling,AIS-711,Delay Prediction,AI opportunity
+Capability to Feature,CAP-720,Cost Management,FEA-721,Cost Tracking,Level 3 feature
+Feature to Screen,FEA-721,Cost Tracking,SCR-721,Cost Dashboard,Primary screen
+Feature to KPI,FEA-721,Cost Tracking,KPI-721,Cost Variance,Primary metric
+Feature to Persona,FEA-721,Cost Tracking,PER-PROJECT-CONTROLS,Project Controls,Primary user
+Feature to AI Service,FEA-721,Cost Tracking,AIS-721,Cost Insights,AI opportunity
+Capability to Feature,CAP-730,Change Order Management,FEA-731,Change Management,Level 3 feature
+Feature to Screen,FEA-731,Change Management,SCR-731,Change Order Center,Primary screen
+Feature to KPI,FEA-731,Change Management,KPI-731,Change Order Rate,Primary metric
+Feature to Persona,FEA-731,Change Management,PER-CONSTRUCTION-MANAGER,Construction Manager,Primary user
+Feature to AI Service,FEA-731,Change Management,AIS-731,Change Analysis,AI opportunity
+Capability to Feature,CAP-740,Field Reporting,FEA-741,Daily Reports,Level 3 feature
+Feature to Screen,FEA-741,Daily Reports,SCR-741,Field Dashboard,Primary screen
+Feature to KPI,FEA-741,Daily Reports,KPI-741,Reporting Compliance,Primary metric
+Feature to Persona,FEA-741,Daily Reports,PER-RESIDENT-ENGINEER,Resident Engineer,Primary user
+Feature to AI Service,FEA-741,Daily Reports,AIS-741,Field Summary,AI opportunity
+Capability to Feature,CAP-750,Construction Analytics,FEA-751,Performance Analytics,Level 3 feature
+Feature to Screen,FEA-751,Performance Analytics,SCR-751,Analytics Center,Primary screen
+Feature to KPI,FEA-751,Performance Analytics,KPI-751,Project Health Score,Primary metric
+Feature to Persona,FEA-751,Performance Analytics,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-751,Performance Analytics,AIS-751,Project Intelligence,AI opportunity
+Capability to Feature,CAP-810,Asset Inventory,FEA-811,Asset Registry,Level 3 feature
+Feature to Screen,FEA-811,Asset Registry,SCR-811,Asset Dashboard,Primary screen
+Feature to KPI,FEA-811,Asset Registry,KPI-811,Asset Coverage,Primary metric
+Feature to Persona,FEA-811,Asset Registry,PER-ASSET-MANAGER,Asset Manager,Primary user
+Feature to AI Service,FEA-811,Asset Registry,AIS-811,Asset Classification,AI opportunity
+Capability to Feature,CAP-820,Inspection Management,FEA-821,Inspection Tracking,Level 3 feature
+Feature to Screen,FEA-821,Inspection Tracking,SCR-821,Inspection Center,Primary screen
+Feature to KPI,FEA-821,Inspection Tracking,KPI-821,Inspection Completion,Primary metric
+Feature to Persona,FEA-821,Inspection Tracking,PER-INSPECTOR,Inspector,Primary user
+Feature to AI Service,FEA-821,Inspection Tracking,AIS-821,Inspection Assistant,AI opportunity
+Capability to Feature,CAP-830,Condition Modeling,FEA-831,Condition Index,Level 3 feature
+Feature to Screen,FEA-831,Condition Index,SCR-831,Condition Dashboard,Primary screen
+Feature to KPI,FEA-831,Condition Index,KPI-831,Condition Score,Primary metric
+Feature to Persona,FEA-831,Condition Index,PER-ASSET-MANAGER,Asset Manager,Primary user
+Feature to AI Service,FEA-831,Condition Index,AIS-831,Condition Forecast,AI opportunity
+Capability to Feature,CAP-840,Lifecycle Analysis,FEA-841,Lifecycle Planning,Level 3 feature
+Feature to Screen,FEA-841,Lifecycle Planning,SCR-841,Lifecycle Workspace,Primary screen
+Feature to KPI,FEA-841,Lifecycle Planning,KPI-841,Remaining Life,Primary metric
+Feature to Persona,FEA-841,Lifecycle Planning,PER-CAPITAL-PLANNER,Capital Planner,Primary user
+Feature to AI Service,FEA-841,Lifecycle Planning,AIS-841,Lifecycle Prediction,AI opportunity
+Capability to Feature,CAP-850,Asset Analytics,FEA-851,Asset Reporting,Level 3 feature
+Feature to Screen,FEA-851,Asset Reporting,SCR-851,Analytics Dashboard,Primary screen
+Feature to KPI,FEA-851,Asset Reporting,KPI-851,Asset Health Index,Primary metric
+Feature to Persona,FEA-851,Asset Reporting,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-851,Asset Reporting,AIS-851,Asset Intelligence,AI opportunity
+Capability to Feature,CAP-910,PM Scheduling,FEA-911,Schedule Planner,Level 3 feature
+Feature to Screen,FEA-911,Schedule Planner,SCR-911,PM Dashboard,Primary screen
+Feature to KPI,FEA-911,Schedule Planner,KPI-911,PM Compliance,Primary metric
+Feature to Persona,FEA-911,Schedule Planner,PER-MAINTENANCE-SUPERVISOR,Maintenance Supervisor,Primary user
+Feature to AI Service,FEA-911,Schedule Planner,AIS-911,Schedule Optimization,AI opportunity
+Capability to Feature,CAP-920,Resource Planning,FEA-921,Crew Assignment,Level 3 feature
+Feature to Screen,FEA-921,Crew Assignment,SCR-921,Resource Planner,Primary screen
+Feature to KPI,FEA-921,Crew Assignment,KPI-921,Crew Utilization,Primary metric
+Feature to Persona,FEA-921,Crew Assignment,PER-OPERATIONS-MANAGER,Operations Manager,Primary user
+Feature to AI Service,FEA-921,Crew Assignment,AIS-921,Resource Allocation,AI opportunity
+Capability to Feature,CAP-930,Maintenance Execution,FEA-931,PM Work Orders,Level 3 feature
+Feature to Screen,FEA-931,PM Work Orders,SCR-931,PM Work Center,Primary screen
+Feature to KPI,FEA-931,PM Work Orders,KPI-931,PM Completion Rate,Primary metric
+Feature to Persona,FEA-931,PM Work Orders,PER-TECHNICIAN,Technician,Primary user
+Feature to AI Service,FEA-931,PM Work Orders,AIS-931,Maintenance Assistant,AI opportunity
+Capability to Feature,CAP-940,Compliance Tracking,FEA-941,Compliance Monitoring,Level 3 feature
+Feature to Screen,FEA-941,Compliance Monitoring,SCR-941,Compliance Dashboard,Primary screen
+Feature to KPI,FEA-941,Compliance Monitoring,KPI-941,Compliance Score,Primary metric
+Feature to Persona,FEA-941,Compliance Monitoring,PER-MAINTENANCE-MANAGER,Maintenance Manager,Primary user
+Feature to AI Service,FEA-941,Compliance Monitoring,AIS-941,Compliance Review,AI opportunity
+Capability to Feature,CAP-950,Maintenance Analytics,FEA-951,Maintenance Reporting,Level 3 feature
+Feature to Screen,FEA-951,Maintenance Reporting,SCR-951,Analytics Workspace,Primary screen
+Feature to KPI,FEA-951,Maintenance Reporting,KPI-951,Asset Availability,Primary metric
+Feature to Persona,FEA-951,Maintenance Reporting,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-951,Maintenance Reporting,AIS-951,Failure Prevention,AI opportunity
+Capability to Feature,CAP-1010,Work Request Intake,FEA-1011,Service Requests,Level 3 feature
+Feature to Screen,FEA-1011,Service Requests,SCR-1011,Request Portal,Primary screen
+Feature to KPI,FEA-1011,Service Requests,KPI-1011,Request Volume,Primary metric
+Feature to Persona,FEA-1011,Service Requests,PER-SERVICE-COORDINATOR,Service Coordinator,Primary user
+Feature to AI Service,FEA-1011,Service Requests,AIS-1011,Request Classification,AI opportunity
+Capability to Feature,CAP-1020,Work Order Planning,FEA-1021,Work Scheduling,Level 3 feature
+Feature to Screen,FEA-1021,Work Scheduling,SCR-1021,Planning Center,Primary screen
+Feature to KPI,FEA-1021,Work Scheduling,KPI-1021,Planning Efficiency,Primary metric
+Feature to Persona,FEA-1021,Work Scheduling,PER-OPERATIONS-MANAGER,Operations Manager,Primary user
+Feature to AI Service,FEA-1021,Work Scheduling,AIS-1021,Work Prioritization,AI opportunity
+Capability to Feature,CAP-1030,Dispatch Management,FEA-1031,Crew Dispatch,Level 3 feature
+Feature to Screen,FEA-1031,Crew Dispatch,SCR-1031,Dispatch Console,Primary screen
+Feature to KPI,FEA-1031,Crew Dispatch,KPI-1031,Response Time,Primary metric
+Feature to Persona,FEA-1031,Crew Dispatch,PER-DISPATCH-SUPERVISOR,Dispatch Supervisor,Primary user
+Feature to AI Service,FEA-1031,Crew Dispatch,AIS-1031,Auto Dispatch,AI opportunity
+Capability to Feature,CAP-1040,Labor & Materials Tracking,FEA-1041,Resource Tracking,Level 3 feature
+Feature to Screen,FEA-1041,Resource Tracking,SCR-1041,Resource Dashboard,Primary screen
+Feature to KPI,FEA-1041,Resource Tracking,KPI-1041,Labor Utilization,Primary metric
+Feature to Persona,FEA-1041,Resource Tracking,PER-OPERATIONS-MANAGER,Operations Manager,Primary user
+Feature to AI Service,FEA-1041,Resource Tracking,AIS-1041,Resource Insights,AI opportunity
+Capability to Feature,CAP-1050,Service Performance Analytics,FEA-1051,Performance Metrics,Level 3 feature
+Feature to Screen,FEA-1051,Performance Metrics,SCR-1051,Service Dashboard,Primary screen
+Feature to KPI,FEA-1051,Performance Metrics,KPI-1051,Backlog Reduction,Primary metric
+Feature to Persona,FEA-1051,Performance Metrics,PER-EXECUTIVE-TEAM,Executive Team,Primary user
+Feature to AI Service,FEA-1051,Performance Metrics,AIS-1051,Performance Intelligence,AI opportunity

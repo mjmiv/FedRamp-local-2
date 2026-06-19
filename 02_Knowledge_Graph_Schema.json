@@ -1,0 +1,792 @@
+{
+  "logical_name": "MJM-Graphics",
+  "version": "4.0",
+  "root": {
+    "id": "PLT-001",
+    "name": "CIPAce Enterprise Platform"
+  },
+  "entity_types": [
+    "Platform",
+    "Domain",
+    "Capability",
+    "Feature",
+    "Screen",
+    "Workflow",
+    "DataObject",
+    "KPI",
+    "Persona",
+    "AIService",
+    "MarketingNarrative",
+    "DemoNarrative",
+    "ContentPanel",
+    "APIEndpoint"
+  ],
+  "relationship_types": [
+    "CONTAINS",
+    "IMPLEMENTS",
+    "USES",
+    "MEASURES",
+    "SERVED_BY",
+    "DISPLAYED_IN",
+    "GENERATES",
+    "INFORMS",
+    "TRIGGERS"
+  ],
+  "required_feature_metadata": [
+    "business_purpose",
+    "business_value",
+    "input_data_objects",
+    "output_data_objects",
+    "workflow_steps",
+    "user_actions",
+    "permissions_model",
+    "api_endpoints",
+    "reporting_outputs",
+    "marketing_narrative",
+    "demo_narrative",
+    "content_panel"
+  ],
+  "nodes_preview": {
+    "domains": [
+      {
+        "id": "DOM-100",
+        "name": "Evaluate Project Candidate"
+      },
+      {
+        "id": "DOM-200",
+        "name": "Evaluate & Allocate Funding"
+      },
+      {
+        "id": "DOM-300",
+        "name": "Finalize Capital Plan"
+      },
+      {
+        "id": "DOM-400",
+        "name": "Develop Capital Budget"
+      },
+      {
+        "id": "DOM-500",
+        "name": "Develop Project Design"
+      },
+      {
+        "id": "DOM-600",
+        "name": "Manage Solicitation"
+      },
+      {
+        "id": "DOM-700",
+        "name": "Manage Project Construction"
+      },
+      {
+        "id": "DOM-800",
+        "name": "Track Asset Condition"
+      },
+      {
+        "id": "DOM-900",
+        "name": "Perform Preventative Maintenance"
+      },
+      {
+        "id": "DOM-1000",
+        "name": "Manage Work Order"
+      }
+    ],
+    "capabilities": [
+      {
+        "id": "CAP-110",
+        "parent": "DOM-100",
+        "name": "Candidate Intake Management"
+      },
+      {
+        "id": "CAP-120",
+        "parent": "DOM-100",
+        "name": "Condition Assessment"
+      },
+      {
+        "id": "CAP-130",
+        "parent": "DOM-100",
+        "name": "Risk Assessment"
+      },
+      {
+        "id": "CAP-140",
+        "parent": "DOM-100",
+        "name": "Project Prioritization"
+      },
+      {
+        "id": "CAP-150",
+        "parent": "DOM-100",
+        "name": "Preliminary Cost Estimation"
+      },
+      {
+        "id": "CAP-210",
+        "parent": "DOM-200",
+        "name": "Funding Source Management"
+      },
+      {
+        "id": "CAP-220",
+        "parent": "DOM-200",
+        "name": "Funding Eligibility Analysis"
+      },
+      {
+        "id": "CAP-230",
+        "parent": "DOM-200",
+        "name": "Grant Management"
+      },
+      {
+        "id": "CAP-240",
+        "parent": "DOM-200",
+        "name": "Cash Flow Forecasting"
+      },
+      {
+        "id": "CAP-250",
+        "parent": "DOM-200",
+        "name": "Funding Optimization"
+      },
+      {
+        "id": "CAP-310",
+        "parent": "DOM-300",
+        "name": "Scenario Development"
+      },
+      {
+        "id": "CAP-320",
+        "parent": "DOM-300",
+        "name": "Portfolio Analysis"
+      },
+      {
+        "id": "CAP-330",
+        "parent": "DOM-300",
+        "name": "Executive Review"
+      },
+      {
+        "id": "CAP-340",
+        "parent": "DOM-300",
+        "name": "Approval Workflow"
+      },
+      {
+        "id": "CAP-410",
+        "parent": "DOM-400",
+        "name": "Budget Assembly"
+      },
+      {
+        "id": "CAP-420",
+        "parent": "DOM-400",
+        "name": "Budget Forecasting"
+      },
+      {
+        "id": "CAP-430",
+        "parent": "DOM-400",
+        "name": "Fund Balancing"
+      },
+      {
+        "id": "CAP-440",
+        "parent": "DOM-400",
+        "name": "Budget Publication"
+      },
+      {
+        "id": "CAP-450",
+        "parent": "DOM-400",
+        "name": "Variance Analysis"
+      },
+      {
+        "id": "CAP-510",
+        "parent": "DOM-500",
+        "name": "Scope Definition"
+      },
+      {
+        "id": "CAP-520",
+        "parent": "DOM-500",
+        "name": "Design Coordination"
+      },
+      {
+        "id": "CAP-530",
+        "parent": "DOM-500",
+        "name": "Document Control"
+      },
+      {
+        "id": "CAP-540",
+        "parent": "DOM-500",
+        "name": "Consultant Management"
+      },
+      {
+        "id": "CAP-550",
+        "parent": "DOM-500",
+        "name": "Design Review"
+      },
+      {
+        "id": "CAP-610",
+        "parent": "DOM-600",
+        "name": "Procurement Planning"
+      },
+      {
+        "id": "CAP-620",
+        "parent": "DOM-600",
+        "name": "Bid Administration"
+      },
+      {
+        "id": "CAP-630",
+        "parent": "DOM-600",
+        "name": "Vendor Management"
+      },
+      {
+        "id": "CAP-640",
+        "parent": "DOM-600",
+        "name": "Evaluation Management"
+      },
+      {
+        "id": "CAP-650",
+        "parent": "DOM-600",
+        "name": "Contract Award"
+      },
+      {
+        "id": "CAP-710",
+        "parent": "DOM-700",
+        "name": "Schedule Management"
+      },
+      {
+        "id": "CAP-720",
+        "parent": "DOM-700",
+        "name": "Cost Management"
+      },
+      {
+        "id": "CAP-730",
+        "parent": "DOM-700",
+        "name": "Change Order Management"
+      },
+      {
+        "id": "CAP-740",
+        "parent": "DOM-700",
+        "name": "Field Reporting"
+      },
+      {
+        "id": "CAP-750",
+        "parent": "DOM-700",
+        "name": "Construction Analytics"
+      },
+      {
+        "id": "CAP-810",
+        "parent": "DOM-800",
+        "name": "Asset Inventory"
+      },
+      {
+        "id": "CAP-820",
+        "parent": "DOM-800",
+        "name": "Inspection Management"
+      },
+      {
+        "id": "CAP-830",
+        "parent": "DOM-800",
+        "name": "Condition Modeling"
+      },
+      {
+        "id": "CAP-840",
+        "parent": "DOM-800",
+        "name": "Lifecycle Analysis"
+      },
+      {
+        "id": "CAP-850",
+        "parent": "DOM-800",
+        "name": "Asset Analytics"
+      },
+      {
+        "id": "CAP-910",
+        "parent": "DOM-900",
+        "name": "PM Scheduling"
+      },
+      {
+        "id": "CAP-920",
+        "parent": "DOM-900",
+        "name": "Resource Planning"
+      },
+      {
+        "id": "CAP-930",
+        "parent": "DOM-900",
+        "name": "Maintenance Execution"
+      },
+      {
+        "id": "CAP-940",
+        "parent": "DOM-900",
+        "name": "Compliance Tracking"
+      },
+      {
+        "id": "CAP-950",
+        "parent": "DOM-900",
+        "name": "Maintenance Analytics"
+      },
+      {
+        "id": "CAP-1010",
+        "parent": "DOM-1000",
+        "name": "Work Request Intake"
+      },
+      {
+        "id": "CAP-1020",
+        "parent": "DOM-1000",
+        "name": "Work Order Planning"
+      },
+      {
+        "id": "CAP-1030",
+        "parent": "DOM-1000",
+        "name": "Dispatch Management"
+      },
+      {
+        "id": "CAP-1040",
+        "parent": "DOM-1000",
+        "name": "Labor & Materials Tracking"
+      },
+      {
+        "id": "CAP-1050",
+        "parent": "DOM-1000",
+        "name": "Service Performance Analytics"
+      }
+    ],
+    "features": [
+      {
+        "id": "FEA-111",
+        "parent": "CAP-110",
+        "name": "Project Submission",
+        "screen": "Candidate Dashboard",
+        "kpi": "Projects Submitted",
+        "persona": "Capital Program Manager",
+        "ai_service": "Project Intake Copilot"
+      },
+      {
+        "id": "FEA-112",
+        "parent": "CAP-110",
+        "name": "Request Tracking",
+        "screen": "Candidate Portfolio",
+        "kpi": "Request Volume",
+        "persona": "Asset Manager",
+        "ai_service": "Auto Classification"
+      },
+      {
+        "id": "FEA-121",
+        "parent": "CAP-120",
+        "name": "Inspection Collection",
+        "screen": "Condition Assessment",
+        "kpi": "Assets Assessed",
+        "persona": "Asset Manager",
+        "ai_service": "Photo Analysis"
+      },
+      {
+        "id": "FEA-131",
+        "parent": "CAP-130",
+        "name": "Risk Matrix",
+        "screen": "Risk Dashboard",
+        "kpi": "Risk Rating",
+        "persona": "Public Works Director",
+        "ai_service": "Risk Scoring"
+      },
+      {
+        "id": "FEA-141",
+        "parent": "CAP-140",
+        "name": "Weighted Ranking",
+        "screen": "Priority Dashboard",
+        "kpi": "Priority Score",
+        "persona": "Executive Team",
+        "ai_service": "Priority Recommendations"
+      },
+      {
+        "id": "FEA-151",
+        "parent": "CAP-150",
+        "name": "Preliminary Estimates",
+        "screen": "Cost Estimate Screen",
+        "kpi": "Estimated Cost",
+        "persona": "Finance Director",
+        "ai_service": "Cost Prediction"
+      },
+      {
+        "id": "FEA-211",
+        "parent": "CAP-210",
+        "name": "Fund Registry",
+        "screen": "Funding Dashboard",
+        "kpi": "Fund Utilization",
+        "persona": "Finance Director",
+        "ai_service": "Funding Match"
+      },
+      {
+        "id": "FEA-221",
+        "parent": "CAP-220",
+        "name": "Eligibility Rules",
+        "screen": "Eligibility Matrix",
+        "kpi": "Eligible Projects",
+        "persona": "Grant Coordinator",
+        "ai_service": "Eligibility Review"
+      },
+      {
+        "id": "FEA-231",
+        "parent": "CAP-230",
+        "name": "Grant Matching",
+        "screen": "Grant Workspace",
+        "kpi": "Grant Capture Rate",
+        "persona": "Grants Manager",
+        "ai_service": "Grant Discovery"
+      },
+      {
+        "id": "FEA-241",
+        "parent": "CAP-240",
+        "name": "Revenue Projection",
+        "screen": "Cash Flow Forecast",
+        "kpi": "Forecast Accuracy",
+        "persona": "Finance Director",
+        "ai_service": "Forecast Engine"
+      },
+      {
+        "id": "FEA-251",
+        "parent": "CAP-250",
+        "name": "Scenario Modeling",
+        "screen": "Funding Scenarios",
+        "kpi": "Funding Coverage",
+        "persona": "City Manager",
+        "ai_service": "Funding Optimizer"
+      },
+      {
+        "id": "FEA-311",
+        "parent": "CAP-310",
+        "name": "Scenario Builder",
+        "screen": "Scenario Workspace",
+        "kpi": "Scenario Completion",
+        "persona": "Capital Planner",
+        "ai_service": "Scenario Generator"
+      },
+      {
+        "id": "FEA-321",
+        "parent": "CAP-320",
+        "name": "Portfolio Ranking",
+        "screen": "Portfolio Dashboard",
+        "kpi": "Portfolio Value",
+        "persona": "Executive Team",
+        "ai_service": "Portfolio Optimizer"
+      },
+      {
+        "id": "FEA-331",
+        "parent": "CAP-330",
+        "name": "Executive Summary",
+        "screen": "Executive Briefing",
+        "kpi": "Approval Readiness",
+        "persona": "City Manager",
+        "ai_service": "Summary Generator"
+      },
+      {
+        "id": "FEA-341",
+        "parent": "CAP-340",
+        "name": "Routing",
+        "screen": "Approval Queue",
+        "kpi": "Approval Cycle Time",
+        "persona": "Executive Team",
+        "ai_service": "Routing Assistant"
+      },
+      {
+        "id": "FEA-411",
+        "parent": "CAP-410",
+        "name": "Budget Builder",
+        "screen": "Budget Workspace",
+        "kpi": "Budget Completion",
+        "persona": "Budget Officer",
+        "ai_service": "Budget Assistant"
+      },
+      {
+        "id": "FEA-421",
+        "parent": "CAP-420",
+        "name": "Forecast Engine",
+        "screen": "Forecast Dashboard",
+        "kpi": "Forecast Accuracy",
+        "persona": "Finance Director",
+        "ai_service": "Forecast AI"
+      },
+      {
+        "id": "FEA-431",
+        "parent": "CAP-430",
+        "name": "Fund Allocation",
+        "screen": "Allocation Matrix",
+        "kpi": "Fund Balance",
+        "persona": "Finance Team",
+        "ai_service": "Balancing Engine"
+      },
+      {
+        "id": "FEA-441",
+        "parent": "CAP-440",
+        "name": "Budget Reporting",
+        "screen": "Published Budget",
+        "kpi": "Publication Time",
+        "persona": "Executive Team",
+        "ai_service": "Narrative Generation"
+      },
+      {
+        "id": "FEA-451",
+        "parent": "CAP-450",
+        "name": "Variance Tracking",
+        "screen": "Variance Dashboard",
+        "kpi": "Budget Variance",
+        "persona": "Finance Director",
+        "ai_service": "Variance Insights"
+      },
+      {
+        "id": "FEA-511",
+        "parent": "CAP-510",
+        "name": "Scope Registry",
+        "screen": "Scope Dashboard",
+        "kpi": "Scope Completeness",
+        "persona": "Engineering Manager",
+        "ai_service": "Scope Extraction"
+      },
+      {
+        "id": "FEA-521",
+        "parent": "CAP-520",
+        "name": "Design Tracking",
+        "screen": "Design Workspace",
+        "kpi": "Design Completion",
+        "persona": "Project Manager",
+        "ai_service": "Design Assistant"
+      },
+      {
+        "id": "FEA-531",
+        "parent": "CAP-530",
+        "name": "Document Library",
+        "screen": "Repository",
+        "kpi": "Document Accuracy",
+        "persona": "Engineering Team",
+        "ai_service": "Document Classification"
+      },
+      {
+        "id": "FEA-541",
+        "parent": "CAP-540",
+        "name": "Consultant Tracking",
+        "screen": "Consultant Dashboard",
+        "kpi": "Consultant Performance",
+        "persona": "PMO",
+        "ai_service": "Consultant Insights"
+      },
+      {
+        "id": "FEA-551",
+        "parent": "CAP-550",
+        "name": "Review Workflow",
+        "screen": "Review Center",
+        "kpi": "Review Cycle Time",
+        "persona": "Engineering Director",
+        "ai_service": "Review Summaries"
+      },
+      {
+        "id": "FEA-611",
+        "parent": "CAP-610",
+        "name": "Procurement Schedule",
+        "screen": "Procurement Dashboard",
+        "kpi": "Procurement Readiness",
+        "persona": "Procurement Manager",
+        "ai_service": "Procurement Planner"
+      },
+      {
+        "id": "FEA-621",
+        "parent": "CAP-620",
+        "name": "Bid Tracking",
+        "screen": "Bid Management",
+        "kpi": "Bid Cycle Time",
+        "persona": "Contract Administrator",
+        "ai_service": "Bid Analyzer"
+      },
+      {
+        "id": "FEA-631",
+        "parent": "CAP-630",
+        "name": "Vendor Registry",
+        "screen": "Vendor Workspace",
+        "kpi": "Vendor Participation",
+        "persona": "Purchasing Manager",
+        "ai_service": "Vendor Insights"
+      },
+      {
+        "id": "FEA-641",
+        "parent": "CAP-640",
+        "name": "Evaluation Matrix",
+        "screen": "Evaluation Center",
+        "kpi": "Evaluation Accuracy",
+        "persona": "Evaluation Committee",
+        "ai_service": "Proposal Comparison"
+      },
+      {
+        "id": "FEA-651",
+        "parent": "CAP-650",
+        "name": "Award Tracking",
+        "screen": "Award Dashboard",
+        "kpi": "Award Time",
+        "persona": "Procurement Manager",
+        "ai_service": "Compliance Review"
+      },
+      {
+        "id": "FEA-711",
+        "parent": "CAP-710",
+        "name": "CPM Scheduling",
+        "screen": "Schedule Dashboard",
+        "kpi": "Schedule Performance",
+        "persona": "Construction Manager",
+        "ai_service": "Delay Prediction"
+      },
+      {
+        "id": "FEA-721",
+        "parent": "CAP-720",
+        "name": "Cost Tracking",
+        "screen": "Cost Dashboard",
+        "kpi": "Cost Variance",
+        "persona": "Project Controls",
+        "ai_service": "Cost Insights"
+      },
+      {
+        "id": "FEA-731",
+        "parent": "CAP-730",
+        "name": "Change Management",
+        "screen": "Change Order Center",
+        "kpi": "Change Order Rate",
+        "persona": "Construction Manager",
+        "ai_service": "Change Analysis"
+      },
+      {
+        "id": "FEA-741",
+        "parent": "CAP-740",
+        "name": "Daily Reports",
+        "screen": "Field Dashboard",
+        "kpi": "Reporting Compliance",
+        "persona": "Resident Engineer",
+        "ai_service": "Field Summary"
+      },
+      {
+        "id": "FEA-751",
+        "parent": "CAP-750",
+        "name": "Performance Analytics",
+        "screen": "Analytics Center",
+        "kpi": "Project Health Score",
+        "persona": "Executive Team",
+        "ai_service": "Project Intelligence"
+      },
+      {
+        "id": "FEA-811",
+        "parent": "CAP-810",
+        "name": "Asset Registry",
+        "screen": "Asset Dashboard",
+        "kpi": "Asset Coverage",
+        "persona": "Asset Manager",
+        "ai_service": "Asset Classification"
+      },
+      {
+        "id": "FEA-821",
+        "parent": "CAP-820",
+        "name": "Inspection Tracking",
+        "screen": "Inspection Center",
+        "kpi": "Inspection Completion",
+        "persona": "Inspector",
+        "ai_service": "Inspection Assistant"
+      },
+      {
+        "id": "FEA-831",
+        "parent": "CAP-830",
+        "name": "Condition Index",
+        "screen": "Condition Dashboard",
+        "kpi": "Condition Score",
+        "persona": "Asset Manager",
+        "ai_service": "Condition Forecast"
+      },
+      {
+        "id": "FEA-841",
+        "parent": "CAP-840",
+        "name": "Lifecycle Planning",
+        "screen": "Lifecycle Workspace",
+        "kpi": "Remaining Life",
+        "persona": "Capital Planner",
+        "ai_service": "Lifecycle Prediction"
+      },
+      {
+        "id": "FEA-851",
+        "parent": "CAP-850",
+        "name": "Asset Reporting",
+        "screen": "Analytics Dashboard",
+        "kpi": "Asset Health Index",
+        "persona": "Executive Team",
+        "ai_service": "Asset Intelligence"
+      },
+      {
+        "id": "FEA-911",
+        "parent": "CAP-910",
+        "name": "Schedule Planner",
+        "screen": "PM Dashboard",
+        "kpi": "PM Compliance",
+        "persona": "Maintenance Supervisor",
+        "ai_service": "Schedule Optimization"
+      },
+      {
+        "id": "FEA-921",
+        "parent": "CAP-920",
+        "name": "Crew Assignment",
+        "screen": "Resource Planner",
+        "kpi": "Crew Utilization",
+        "persona": "Operations Manager",
+        "ai_service": "Resource Allocation"
+      },
+      {
+        "id": "FEA-931",
+        "parent": "CAP-930",
+        "name": "PM Work Orders",
+        "screen": "PM Work Center",
+        "kpi": "PM Completion Rate",
+        "persona": "Technician",
+        "ai_service": "Maintenance Assistant"
+      },
+      {
+        "id": "FEA-941",
+        "parent": "CAP-940",
+        "name": "Compliance Monitoring",
+        "screen": "Compliance Dashboard",
+        "kpi": "Compliance Score",
+        "persona": "Maintenance Manager",
+        "ai_service": "Compliance Review"
+      },
+      {
+        "id": "FEA-951",
+        "parent": "CAP-950",
+        "name": "Maintenance Reporting",
+        "screen": "Analytics Workspace",
+        "kpi": "Asset Availability",
+        "persona": "Executive Team",
+        "ai_service": "Failure Prevention"
+      },
+      {
+        "id": "FEA-1011",
+        "parent": "CAP-1010",
+        "name": "Service Requests",
+        "screen": "Request Portal",
+        "kpi": "Request Volume",
+        "persona": "Service Coordinator",
+        "ai_service": "Request Classification"
+      },
+      {
+        "id": "FEA-1021",
+        "parent": "CAP-1020",
+        "name": "Work Scheduling",
+        "screen": "Planning Center",
+        "kpi": "Planning Efficiency",
+        "persona": "Operations Manager",
+        "ai_service": "Work Prioritization"
+      },
+      {
+        "id": "FEA-1031",
+        "parent": "CAP-1030",
+        "name": "Crew Dispatch",
+        "screen": "Dispatch Console",
+        "kpi": "Response Time",
+        "persona": "Dispatch Supervisor",
+        "ai_service": "Auto Dispatch"
+      },
+      {
+        "id": "FEA-1041",
+        "parent": "CAP-1040",
+        "name": "Resource Tracking",
+        "screen": "Resource Dashboard",
+        "kpi": "Labor Utilization",
+        "persona": "Operations Manager",
+        "ai_service": "Resource Insights"
+      },
+      {
+        "id": "FEA-1051",
+        "parent": "CAP-1050",
+        "name": "Performance Metrics",
+        "screen": "Service Dashboard",
+        "kpi": "Backlog Reduction",
+        "persona": "Executive Team",
+        "ai_service": "Performance Intelligence"
+      }
+    ]
+  }
+}

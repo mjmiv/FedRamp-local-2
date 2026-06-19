@@ -1,0 +1,50 @@
+domain_id,domain,capability_id,capability,marketing_value,demo_value,ai_value,priority
+DOM-100,Evaluate Project Candidate,CAP-110,Candidate Intake Management,High,High,High,Phase 1
+DOM-100,Evaluate Project Candidate,CAP-120,Condition Assessment,Medium,Medium,Medium,Phase 2
+DOM-100,Evaluate Project Candidate,CAP-130,Risk Assessment,Medium,Medium,Medium,Phase 2
+DOM-100,Evaluate Project Candidate,CAP-140,Project Prioritization,Medium,Medium,Medium,Phase 2
+DOM-100,Evaluate Project Candidate,CAP-150,Preliminary Cost Estimation,Medium,Medium,Medium,Phase 2
+DOM-200,Evaluate & Allocate Funding,CAP-210,Funding Source Management,Medium,Medium,Medium,Phase 2
+DOM-200,Evaluate & Allocate Funding,CAP-220,Funding Eligibility Analysis,Medium,Medium,Medium,Phase 2
+DOM-200,Evaluate & Allocate Funding,CAP-230,Grant Management,Medium,Medium,Medium,Phase 2
+DOM-200,Evaluate & Allocate Funding,CAP-240,Cash Flow Forecasting,Medium,Medium,Medium,Phase 2
+DOM-200,Evaluate & Allocate Funding,CAP-250,Funding Optimization,High,High,High,Phase 1
+DOM-300,Finalize Capital Plan,CAP-310,Scenario Development,High,High,High,Phase 1
+DOM-300,Finalize Capital Plan,CAP-320,Portfolio Analysis,Medium,Medium,Medium,Phase 2
+DOM-300,Finalize Capital Plan,CAP-330,Executive Review,High,High,High,Phase 1
+DOM-300,Finalize Capital Plan,CAP-340,Approval Workflow,Medium,Medium,Medium,Phase 2
+DOM-400,Develop Capital Budget,CAP-410,Budget Assembly,Medium,Medium,Medium,Phase 2
+DOM-400,Develop Capital Budget,CAP-420,Budget Forecasting,Medium,Medium,Medium,Phase 2
+DOM-400,Develop Capital Budget,CAP-430,Fund Balancing,Medium,Medium,Medium,Phase 2
+DOM-400,Develop Capital Budget,CAP-440,Budget Publication,Medium,Medium,Medium,Phase 2
+DOM-400,Develop Capital Budget,CAP-450,Variance Analysis,Medium,Medium,Medium,Phase 2
+DOM-500,Develop Project Design,CAP-510,Scope Definition,Medium,Medium,Medium,Phase 2
+DOM-500,Develop Project Design,CAP-520,Design Coordination,Medium,Medium,Medium,Phase 2
+DOM-500,Develop Project Design,CAP-530,Document Control,Medium,Medium,Medium,Phase 2
+DOM-500,Develop Project Design,CAP-540,Consultant Management,Medium,Medium,Medium,Phase 2
+DOM-500,Develop Project Design,CAP-550,Design Review,Medium,Medium,Medium,Phase 2
+DOM-600,Manage Solicitation,CAP-610,Procurement Planning,Medium,Medium,Medium,Phase 2
+DOM-600,Manage Solicitation,CAP-620,Bid Administration,Medium,Medium,Medium,Phase 2
+DOM-600,Manage Solicitation,CAP-630,Vendor Management,Medium,Medium,Medium,Phase 2
+DOM-600,Manage Solicitation,CAP-640,Evaluation Management,Medium,Medium,Medium,Phase 2
+DOM-600,Manage Solicitation,CAP-650,Contract Award,Medium,Medium,Medium,Phase 2
+DOM-700,Manage Project Construction,CAP-710,Schedule Management,High,High,High,Phase 1
+DOM-700,Manage Project Construction,CAP-720,Cost Management,Medium,Medium,Medium,Phase 2
+DOM-700,Manage Project Construction,CAP-730,Change Order Management,Medium,Medium,Medium,Phase 2
+DOM-700,Manage Project Construction,CAP-740,Field Reporting,Medium,Medium,Medium,Phase 2
+DOM-700,Manage Project Construction,CAP-750,Construction Analytics,Medium,Medium,Medium,Phase 2
+DOM-800,Track Asset Condition,CAP-810,Asset Inventory,Medium,Medium,Medium,Phase 2
+DOM-800,Track Asset Condition,CAP-820,Inspection Management,Medium,Medium,Medium,Phase 2
+DOM-800,Track Asset Condition,CAP-830,Condition Modeling,High,High,High,Phase 1
+DOM-800,Track Asset Condition,CAP-840,Lifecycle Analysis,Medium,Medium,Medium,Phase 2
+DOM-800,Track Asset Condition,CAP-850,Asset Analytics,Medium,Medium,Medium,Phase 2
+DOM-900,Perform Preventative Maintenance,CAP-910,PM Scheduling,Medium,Medium,Medium,Phase 2
+DOM-900,Perform Preventative Maintenance,CAP-920,Resource Planning,Medium,Medium,Medium,Phase 2
+DOM-900,Perform Preventative Maintenance,CAP-930,Maintenance Execution,Medium,Medium,Medium,Phase 2
+DOM-900,Perform Preventative Maintenance,CAP-940,Compliance Tracking,Medium,Medium,Medium,Phase 2
+DOM-900,Perform Preventative Maintenance,CAP-950,Maintenance Analytics,Medium,Medium,Medium,Phase 2
+DOM-1000,Manage Work Order,CAP-1010,Work Request Intake,Medium,Medium,Medium,Phase 2
+DOM-1000,Manage Work Order,CAP-1020,Work Order Planning,Medium,Medium,Medium,Phase 2
+DOM-1000,Manage Work Order,CAP-1030,Dispatch Management,High,High,High,Phase 1
+DOM-1000,Manage Work Order,CAP-1040,Labor & Materials Tracking,Medium,Medium,Medium,Phase 2
+DOM-1000,Manage Work Order,CAP-1050,Service Performance Analytics,Medium,Medium,Medium,Phase 2
